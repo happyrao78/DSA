@@ -7,10 +7,13 @@ int main(){
      st.push(3);
     st.push(2);
      st.push(1);
-    st.emplace(0);
-    cout<<st.top();
-    st.pop();
-    cout<<st.size();
+    st.push(0);
+    while(!st.empty()){
+        cout<<st.top()<<"";
+        st.pop();
+    }
+    // st.pop();
+    // cout<<st.size();
 
     
     return 0;

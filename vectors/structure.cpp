@@ -90,11 +90,15 @@ int main()
     vector<string> arr4;
     vector<string>::iterator enter = arr4.begin();
     arr4.insert(enter, 4, "inserted happy"); // inserts happy in beginning of  vector array 4 times
-    display(arr4);
+    // display(arr4);
     vector<int> arr5(5, 15); // displays the 15 5 times
     // display(arr5);
     vector<int> arr6(arr5);
     // display(arr6);created vector from previous vector
+    print<int> obj;
+    obj.input();
+    obj.display_class();
+    
 
     return 0;
 }
