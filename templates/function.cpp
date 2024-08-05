@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
-template <class t1>
-void swapp(t1 a,t1 b){
+template <class t1=string, class t2= int >
+void swapp(t1 a,t2 b){
  cout<<"a:"<<a<<"b:"<<b<<endl;
     a = a+b;
     b=a-b;
@@ -9,6 +9,6 @@ void swapp(t1 a,t1 b){
     cout<<"a:"<<a<<"b:"<<b;
 }
 int main(){
-    swapp('a','x');
+    swapp('a',5);
     return 0;
 }
