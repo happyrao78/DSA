@@ -17,12 +17,14 @@ int main(){
     int res = __builtin_popcount(cnt);
     cout<<res<<endl;
 
-    string s="5619";
+    string s="312";
     sort(s.begin(),s.end());
     do{
         cout<<s<<endl;
     }while(
         next_permutation(s.begin(),s.end()));
+
+        
     
 
 

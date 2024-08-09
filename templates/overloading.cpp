@@ -25,8 +25,8 @@ void func(x a){
     cout<<"Templatised function called value:"<<a<<endl;
 }
 int main(){
-    sample<int> obj(5);
-    sample<float> obj2(5.152);
-    func(5.7895);//high priority of normal func function
+    // sample<int> obj(5);
+    // sample<float> obj2(5.152);
+    func(5);//high priority of normal func function
     return 0;
 }
