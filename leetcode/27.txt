@@ -1,0 +1,11 @@
+:: REMOVE ELEMENT::
+auto it= nums.begin();
+while(it != nums.end()){
+    if(*it == val){
+        nums.erase(it);
+    }
+    else{
+        ++it;
+    }
+}
+return nums.size();
