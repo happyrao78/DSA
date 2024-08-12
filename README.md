@@ -1,1 +1,1 @@
-# Striver DSA A2Z Sheet Practice (  Language Independent )
+# Striver DSA A2Z Sheet Practice ( Language Independent )
