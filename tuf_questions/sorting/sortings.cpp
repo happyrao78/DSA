@@ -39,6 +39,7 @@ void bubble_sort_aray(int arr[], int n){
     }
 }
 void insertion_sort_array(int arr[],int n){
+    //TIME COMPLEXITY : O(N) initially without any condition check
     for(auto i =0;i<=n-1;i++){
         int j=i;
         while(j > 0 && arr[j-1] > arr[j]){
