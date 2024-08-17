@@ -10,7 +10,7 @@ int main(){
         mpp[s[i]]++;
     }
     for(auto it : mpp){
-        cout<<it.first<<"->"<<it.second<<endl;
+        cout<<it.first<<" frequency ->"<<it.second<<endl;
     }
     //fetching
     int chances;
