@@ -33,7 +33,7 @@ void bubble_sort_aray(int arr[], int n){
         }
         if(didswap ==0){
             break;
-        }
+        }//time complexity 0(n2)
         // cout<<"runtimes"<<endl;
 
     }
